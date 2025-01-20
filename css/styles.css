@@ -1,0 +1,77 @@
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color: blueviolet;
+}
+.dark-2{
+    color: 474747;
+}
+.btn-primary{
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: 20px;
+    color: floralwhite;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+   
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.banner-greting{
+    font-size: 45px;
+    font-weight: 600px;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 100px;
+}
+.banner-contant{
+    max-width: 800px;
+}
